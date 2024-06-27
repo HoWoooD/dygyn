@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Игры Дыгына</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Игры Дыгына</description>
+    <image>
+      <title>Игры Дыгына</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Thu, 27 Jun 2024 23:31:19 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023</title>
+      <link>http://localhost:1313/posts/2023/</link>
+      <pubDate>Thu, 27 Jun 2024 23:31:19 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2023/</guid>
+      <description>Победитель: Вячеслав Дьяконов</description>
+    </item>
+    <item>
+      <title>2022</title>
+      <link>http://localhost:1313/posts/2022/</link>
+      <pubDate>Mon, 27 Jun 2022 23:30:06 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2022/</guid>
+      <description>Победитель: Алексей Уваровский</description>
+    </item>
+    <item>
+      <title>2021</title>
+      <link>http://localhost:1313/posts/2021/</link>
+      <pubDate>Sun, 27 Jun 2021 23:30:11 +0900</pubDate>
+      <guid>http://localhost:1313/posts/2021/</guid>
+      <description>Победитель: Егор Филиппов</description>
+    </item>
+  </channel>
+</rss>
