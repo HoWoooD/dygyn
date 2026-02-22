@@ -1,0 +1,28 @@
+{{- $sports := slice "Общий зачет" "3х3" "тутум" "мас" "ох" "суруру" "хапсаҕай" "таас" -}}
+
+<div class="sport-tabs">
+  <div class="sport-tabs-nav">
+    {{- range $index, $sport := $sports -}}
+    <button class="sport-tab {{ if eq $index 0 }}active{{ end }}" data-sport="{{ $sport }}">
+      {{ $sport }}
+    </button>
+    {{- end -}}
+  </div>
+  
+  <div class="sport-tabs-content">
+    {{ .Inner }}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.sport-tab');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+      tabs.forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      // Custom logic for showing/hiding content can be added here
+    });
+  });
+});
+</script>

@@ -1,0 +1,14 @@
+{{- $sport := .Get "sport" -}}
+{{- $year := .Get "year" -}}
+
+<div class="ranking-section">
+  {{- if $sport -}}
+  <h3 class="ranking-title">{{ $sport }}</h3>
+  {{- end -}}
+  
+  <div class="ranking-table-wrapper">
+    <table class="ranking-table">
+      {{ .Inner }}
+    </table>
+  </div>
+</div>

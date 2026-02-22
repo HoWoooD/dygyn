@@ -1,0 +1,26 @@
+{{- $name := .Get "name" -}}
+{{- $year := .Get "year" -}}
+{{- $prize := .Get "prize" -}}
+{{- $photo := .Get "photo" -}}
+{{- $points := .Get "points" -}}
+
+<div class="winner-card">
+  <div class="winner-card-content">
+    {{- if $photo -}}
+    <div class="winner-photo">
+      <img src="{{ $photo }}" alt="{{ $name }}" loading="lazy">
+      <div class="winner-badge">🏆</div>
+    </div>
+    {{- end -}}
+    <div class="winner-info">
+      <div class="winner-year">{{ $year }}</div>
+      <h2 class="winner-name">{{ $name }}</h2>
+      {{- if $prize -}}
+      <div class="winner-prize">{{ $prize }}</div>
+      {{- end -}}
+      {{- if $points -}}
+      <div class="winner-points">{{ $points }} очко</div>
+      {{- end -}}
+    </div>
+  </div>
+</div>
